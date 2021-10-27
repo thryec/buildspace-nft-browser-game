@@ -3,9 +3,9 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
     ["Batman", "Robin", "Wonder Woman"],
     [
-      "https://www.denofgeek.com/wp-content/uploads/2021/08/batman-89-1.jpg?resize=768%2C432",
-      "https://variety.com/wp-content/uploads/2021/08/Robin.jpg?w=681&h=383&crop=1",
-      "https://i.insider.com/57ee848e11c8e79c0b8b46aa?width=800&format=jpeg",
+      "QmdiJ6HCbewhmZV2MouTdTydibDEb77g2sHwwePeYKub72",
+      "QmdeJyRLFmCY4WKhW6ZZQ3SuSYaUcESfKPtp8w9fvB5BGm",
+      "QmaBAcLwJYYgmn7qAgoGX5q1n5stjpiZDxDyG1vgbvAWrt",
     ],
     [1000, 2000, 3000],
     [100, 500, 1000],
